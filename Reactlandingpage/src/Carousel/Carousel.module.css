@@ -1,0 +1,43 @@
+.carouselContainer {
+    height: 100vh;
+  }
+  
+  .carouselItemContent {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .carouselItemContent img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* This will ensure the image covers the container without stretching */
+  }
+  
+  .carouselCaption {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+  }
+  
+  .carouselCaption h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .carouselCaption p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #D2093C;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+  .carouselCaption button {
+    margin-top: 10px;
+  }
+  
