@@ -8,8 +8,8 @@ const Signup = ({ onLoginClick, onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your signup logic here
-    onLogin(email); // Call onLogin with the email as the username
+    
+    onLogin(email); 
   };
 
   return (
