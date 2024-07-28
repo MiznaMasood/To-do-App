@@ -1,0 +1,158 @@
+/* Overall background for the browser */
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container styling */
+  .todoApp {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  /* Heading styling */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Input and button container styling */
+  .todoInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .todoInput input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add button styling */
+  .todoInput button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add button hover effect */
+  .todoInput button:hover {
+    background-color: #388e3c; /* Darker green */
+  }
+  
+  /* Delete all button styling */
+  .todoDeleteAll {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  /* Delete all button styling */
+  .todoDeleteAll button {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Delete all button hover effect */
+  .todoDeleteAll button:hover {
+    background-color: #c62828; /* Darker red */
+  }
+  
+  /* List styling */
+  .todoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Todo item styling */
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  /* Todo item hover effect */
+  .todoItem:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Todo text styling */
+  .todoItem p {
+    margin: 0;
+    flex: 1;
+    font-size: 1.2rem;
+  }
+  
+  /* Actions container styling */
+  .todoActions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icon styling */
+  .deleteIcon, .editIcon {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #4caf50; /* Green for edit icon */
+    transition: color 0.3s ease;
+  }
+  
+  /* Delete icon styling */
+  .deleteIcon {
+    color: #f44336; /* Red for delete icon */
+  }
+  
+  /* Delete icon hover effect */
+  .deleteIcon:hover {
+    color: #c62828; /* Darker red */
+  }
+  
+  /* Edit icon hover effect */
+  .editIcon:hover {
+    color: #388e3c; /* Darker green */
+  }
+  
+  
+  
