@@ -1,0 +1,53 @@
+/* Dashboard.module.css */
+.hdiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: green; /* Keep this as your header background */
+    padding: 20px 0; /* Add some padding to make it more spacious */
+    border-radius: 0px 0px 10px 10px; /* Add bottom rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow for depth */
+    position: relative;
+    z-index: 1; /* Make sure the header appears above other elements */
+    width: 100%;
+}
+
+  
+  .drawer {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #1e2a38;
+    color: white;
+  }
+  
+  .drawer .MuiList-root {
+    padding-top: 20px;
+  }
+  
+  .drawer .MuiListItem-root {
+    padding: 15px 20px;
+  }
+  
+  .drawer .MuiListItemIcon-root {
+    color: white;
+  }
+  
+  .drawer .MuiCollapse-root {
+    background-color: #233647;
+  }
+  
+  .drawer .MuiListItemText-root {
+    font-weight: 500;
+  }
+
+  
+  
